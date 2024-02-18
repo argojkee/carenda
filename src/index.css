@@ -1,13 +1,84 @@
+:root {
+  --primary-text-color: rgba(18, 20, 23, 1);
+  --secondary-text-color: rgba(18, 20, 23, 0.5);
+  --light-text-color: white;
+  --decoration-text-color: rgba(52, 112, 255, 1);
+  --secondary-decoration-text-color: rgba(11, 68, 205, 1);
+  --third-decoration-text-color: orange;
+  --btn-bg-color: rgba(52, 112, 255, 1);
+  --btn-hover-bg-color: rgba(11, 68, 205, 1);
+  --btn-text-color: white;
+  --primary-link-color: tomato;
+  --secondary-link-color: yellow;
+  --third-link-color: rgba(11, 68, 205, 1);
+  --primary-hover-link-color: tomato;
+  --secondary-hover-link-color: yellow;
+  --label-color: rgb(138, 138, 137);
+  --filter-bg-color: rgb(247, 247, 251);
+  --primary-bg-color: gray;
+  --secondary-bg-color: rgb(200, 200, 200);
+  --third-bg-color: rgb(230, 230, 230);
+  --error-text-color: red;
+  --main-cubic: 250ms linear;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+* {
+  font-family: "Manrope";
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+  fill: blue;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
