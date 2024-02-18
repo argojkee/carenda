@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/carenda/static/css/main.95c425a1.css",
+    "main.js": "/carenda/static/js/main.289ba34d.js",
+    "static/js/781.12c35b35.chunk.js": "/carenda/static/js/781.12c35b35.chunk.js",
+    "static/js/926.4182dbad.chunk.js": "/carenda/static/js/926.4182dbad.chunk.js",
+    "static/js/61.5be061ae.chunk.js": "/carenda/static/js/61.5be061ae.chunk.js",
+    "static/js/70.7a05bb60.chunk.js": "/carenda/static/js/70.7a05bb60.chunk.js",
+    "static/media/logo.svg": "/carenda/static/media/logo.11c3826085a77ea745918096e6a0ac49.svg",
+    "index.html": "/carenda/index.html",
+    "static/media/heart.svg": "/carenda/static/media/heart.4dbde3c695d2f29636174eef926dc9ef.svg",
+    "static/media/close.svg": "/carenda/static/media/close.f4b4d8c8de8da46fd80af8be927804f4.svg",
+    "static/media/arrow.svg": "/carenda/static/media/arrow.6dc43fd291fdeeac1b225202a3dce225.svg",
+    "main.95c425a1.css.map": "/carenda/static/css/main.95c425a1.css.map",
+    "main.289ba34d.js.map": "/carenda/static/js/main.289ba34d.js.map",
+    "781.12c35b35.chunk.js.map": "/carenda/static/js/781.12c35b35.chunk.js.map",
+    "926.4182dbad.chunk.js.map": "/carenda/static/js/926.4182dbad.chunk.js.map",
+    "61.5be061ae.chunk.js.map": "/carenda/static/js/61.5be061ae.chunk.js.map",
+    "70.7a05bb60.chunk.js.map": "/carenda/static/js/70.7a05bb60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95c425a1.css",
+    "static/js/main.289ba34d.js"
+  ]
+}
